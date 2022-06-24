@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="contenedores.MainPage">
+
+    <Grid x:Name="grilla" BackgroundColor="Black">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+
+        <Button x:Name="btnuno" BackgroundColor="white" Clicked="Button_Clicked"/>
+        <Button x:Name="btndos"  BackgroundColor="white" Clicked="Button_Clicked" Grid.Column="1"/>
+        <Button x:Name="btntres" BackgroundColor="white"  Clicked="Button_Clicked" Grid.Column="2"/>
+        <Button x:Name="btncuatro" BackgroundColor="white" Clicked="Button_Clicked" Grid.Row="1"/>
+        <Button x:Name="btncinco" BackgroundColor="white" Clicked="Button_Clicked" Grid.Row="1" Grid.Column="1"/>
+        <Button x:Name="btnseis" BackgroundColor="white" Clicked="Button_Clicked" Grid.Row="1" Grid.Column="2"/>
+        <Button x:Name="btnsiete" BackgroundColor="white"  Clicked="Button_Clicked" Grid.Row="2"/>
+        <Button x:Name="btnocho" BackgroundColor="white" Clicked="Button_Clicked" Grid.Row="2" Grid.Column="1"/>
+        <Button x:Name="btnueve" BackgroundColor="white" Clicked="Button_Clicked" Grid.Row="2" Grid.Column="2"/>
+    </Grid>
+</ContentPage>
